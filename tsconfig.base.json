@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "listFiles": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": ["esnext"]
+    },
+    "exclude": ["node_modules", "dist", "lib"]
+}

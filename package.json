@@ -1,0 +1,28 @@
+{
+    "name": "genergy-spider",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "bootstrap": "lerna bootstrap",
+        "clean": "lerna run clean",
+        "start:common": "lerna run start --scope @genergy-spider/common",
+        "start:schedule": "lerna run start --scope @genergy-spider/schedule",
+        "compile:common": "lerna run compile --scope @genergy-spider/common",
+        "compile:schedule": "lerna run compile --scope @genergy-spider/schedule",
+        "build:dev": "lerna run build:dev --scope @genergy-spider/schedule",
+        "build:test": "lerna run build:test --scope @genergy-spider/schedule",
+        "build:pretest": "lerna run build:pretest --scope @genergy-spider/schedule",
+        "build:prod": "lerna run build:prod --scope @genergy-spider/schedule",
+        "publish": "lerna publish"
+    },
+    "devDependencies": {
+        "lerna": "^3.22.0"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "singleQuote": true
+    }
+}

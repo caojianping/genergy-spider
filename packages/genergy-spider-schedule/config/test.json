@@ -1,0 +1,13 @@
+{
+    "db": {
+        "mysql": {
+            "dialect": "mysql",
+            "host": "172.18.10.78",
+            "port": 3306,
+            "database": "genergy_eam",
+            "username": "root",
+            "password": "6x@test2018"
+        },
+        "redis": "172.18.10.785:6379"
+    }
+}

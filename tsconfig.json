@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@genergy-spider/common": ["packages/genergy-spider-common/src"]
+        }
+    }
+}
